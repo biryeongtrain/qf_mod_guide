@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "testmod",
+  "version": "${version}",
+  "name": "TestMod",
+  "description": "Biryeongtrain's Test Mod",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/TestMod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "biryeongtrain06.testmod.TestMod"
+    ]
+  },
+  "mixins": [
+    "testmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
